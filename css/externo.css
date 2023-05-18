@@ -1,0 +1,33 @@
+* {
+    color:blueviolet;
+    background-color: rgb(27, 27, 31);
+}
+h1{
+    color: white;
+}
+p{
+    size: 17px;
+}
+
+.clase1{
+    color: wheat
+}
+
+#idTituloStyle{
+    color: greenyellow;
+
+}
+
+a[href]{
+    color: aqua;
+}
+a[href*="www"]{
+    color:coral;
+}
+
+/* label:hover{
+    color: springgreen;
+    background-color: coral;
+    font-size: 25px;
+
+}*/
