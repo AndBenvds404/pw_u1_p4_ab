@@ -56,7 +56,10 @@
     padding: 20px;
     margin-bottom: 25px;
     background: violet;
- }
+    box-shadow: 2px 2px 2px 2px cornflowerblue;
+    
+
+   }
 
  /*
  h1{
@@ -69,3 +72,25 @@
     color: red;
  }
  */
+
+.referencias{
+   border: 1px solid black;
+   width: 200px;
+   float: left;
+   margin-top: 100px;
+   margin-left: 20px;
+ }
+
+article footer{
+   text-align: right;
+}
+
+.pie{
+   /*Estilo general para el pie*/
+   clear: both;
+
+}
+article img{
+   width: 200px;
+   height: 210px;
+}
