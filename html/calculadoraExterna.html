@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
-
-    <script>
-       
-    </script>
+    <script src="../js/calculadora.js"> </script>
 
 </head>
 <body>
@@ -24,17 +22,20 @@
         <label for="idNum2"> Número 2</label>
         <input id="idNum2" type="number">
        
-        <button onclick="document.getElementById('IdlabelResultado').style.backgroundColor='skyblue'"   > 35 online </button>
-        <button onclick="document.getElementById('IdlabelResultado').innerHTML='prueba'"> 35 oline 2 </button>
-        
 
         <button onclick ="sumarNums()" > + </button>
         <button onclick="restarNums()"> - </button>
         <button onclick="multiplicarNums()" > * </button>
         <button onclick="dividirNums()"> / </button>
         
-
+        <button onclick="dividirNums()"> insertar elemento</button>
+        <button onclick="dividirNums()"> eliminar </button>
+        
         <label id="IdlabelResultado" for=""> Resultado </label>
+
+        <label id="idEliminar" for=""> Eliminar</label>
+
+        <div id="elemento"> </div>
 
     </section>
     <footer> </footer>
