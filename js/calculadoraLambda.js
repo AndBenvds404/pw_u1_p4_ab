@@ -43,7 +43,7 @@ const dividirNums=()=>{
 
 
 const eliminarElemento=()=>{
-    document.getElementById('idEliminar').remove();
+    document.getElementById('elemento').innerHTML=" ";
     console.log(document.getElementById('idEliminar'))
     console.log('Test');
 }
