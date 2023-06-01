@@ -27,18 +27,18 @@ const calcular=()=>{
     
     switch (operador){
         case '+':
-            document.getElementById('IdlabelResultado').innerHTML='= '+sumar(numero1,numero2);
+            document.getElementById('IdlabelResultado').value='= '+sumar(numero1,numero2);
             break;
         case '-':
-            document.getElementById('IdlabelResultado').innerHTML='= '+restar(numero1,numero2);
+            document.getElementById('IdlabelResultado').value='= '+restar(numero1,numero2);
            
             break;
         case '*':
-            document.getElementById('IdlabelResultado').innerHTML='= '+multiplicar(numero1,numero2);
+            document.getElementById('IdlabelResultado').value='= '+multiplicar(numero1,numero2);
           
             break;
         case '/':
-            document.getElementById('IdlabelResultado').innerHTML='= '+dividir(numero1,numero2).toFixed(5);
+            document.getElementById('IdlabelResultado').value='= '+dividir(numero1,numero2).toFixed(5);
             
             break;
 
@@ -52,7 +52,7 @@ const insertarElemento=(num)=>{
     
         var contenido = num;
         concatenarNum += contenido;
-        parseInt(document.getElementById('IdlabelResultado').innerHTML=concatenarNum);
+        parseInt(document.getElementById('IdlabelResultado').value =concatenarNum);
         console.log("contenido: "+concatenarNum);
     
 

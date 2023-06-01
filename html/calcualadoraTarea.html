@@ -20,39 +20,42 @@
         <nav> </nav>
         <section>
             
-       
-            <label  id="IdlabelResultado" for="">  </label>
-           
-
-            <div class="botonesNums">
-                
-                <button onclick="insertarElemento(7)"> 7 </button>
-                <button onclick="insertarElemento(8)"> 8 </button>
-                <button onclick="insertarElemento(9)"> 9 </button>
-                <button onclick="insertarElemento(4)"> 4 </button>
-                <button onclick="insertarElemento(5)"> 5 </button>
-                <button onclick="insertarElemento(6)"> 6 </button>
-                <button onclick="insertarElemento(1)"> 1 </button>
-                <button onclick="insertarElemento(2)"> 2 </button>
-                <button onclick="insertarElemento(3)"> 3 </button>
-                <button onclick="insertarElemento(0)"> 0 </button> 
-                 <button onclick="operacion('/')"> / </button>
-                 <button onclick ="operacion('+')" > + </button>
-                <button onclick="operacion('-')"> - </button>
-                <button onclick="operacion('*')" > * </button>
-               
-                <button onclick="calcular()"> = </button>
             
+            
+           
+            <div class="container">
+
+                <div class="calculadora">
+                    
+                        <input  id="IdlabelResultado" type="text">
+                        
+                        <button onclick="insertarElemento(7)"> 7 </button>
+                        <button onclick="insertarElemento(8)"> 8 </button>
+                        <button onclick="insertarElemento(9)"> 9 </button>
+                        <button onclick ="operacion('+')" > + </button>
+                        <button onclick="insertarElemento(4)"> 4 </button>
+                        <button onclick="insertarElemento(5)"> 5 </button>
+                        <button onclick="insertarElemento(6)"> 6 </button>
+                        <button onclick="operacion('-')"> - </button>
+
+                        <button onclick="insertarElemento(1)"> 1 </button>
+                        <button onclick="insertarElemento(2)"> 2 </button>
+                        <button onclick="insertarElemento(3)"> 3 </button>
+                        
+                        <button onclick="operacion('/')"> / </button>
+                        <button class="numCero" onclick="insertarElemento(0)"> 0 </button> 
+
+                        <button onclick="calcular()"> = </button>
+                        <button onclick="operacion('*')" > x </button>
+                        
+                    
+                   
+                </div>
+
+
+
             </div>
-            
-           
-        
-
-            
-
-            
-           
-
+                            
 
 
         </section>
